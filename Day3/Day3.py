@@ -6,10 +6,6 @@ for count,i in enumerate (compartments):
     comp1.append(i[:len(i)//2])
     comp2.append(i[len(i)//2:])
 
-# print(comp1)
-# print(comp2)
-print(len(comp1))
-print(len(comp2))
 
 def priority(a):
     val=ord(a)
